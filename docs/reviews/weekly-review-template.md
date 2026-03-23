@@ -1,38 +1,38 @@
-# Weekly Review Template
+# 周复盘模板
 
-## Basic Information
+## 基本信息
 
-- week:
-- time range:
-- primary focus:
+- 周次：
+- 时间范围：
+- 本周重点：
 
-## What I Learned
+## 我学到了什么
 
-- key concepts:
-- useful insights:
-- open questions:
+- 关键概念：
+- 有价值的理解：
+- 还没解决的问题：
 
-## What I Built
+## 我做成了什么
 
-- experiments completed:
-- features completed:
-- links to related files:
+- 已完成实验：
+- 已完成功能：
+- 相关文件链接：
 
-## AI Tool Workflow Review
+## AI 工具工作流复盘
 
-- which tools were used:
-- what worked well:
-- what caused friction:
-- what workflow should be reused:
+- 本周使用了哪些工具：
+- 哪些做法效果好：
+- 哪些地方有阻力：
+- 哪些流程值得复用：
 
-## Capability Growth
+## 能力成长
 
-- what feels stronger now:
-- what still feels weak:
-- what needs more practice:
+- 现在更强的地方：
+- 仍然薄弱的地方：
+- 还需要更多练习的地方：
 
-## Next Week
+## 下周计划
 
-- next focus:
-- next experiment:
-- next project task:
+- 下周重点：
+- 下一个实验：
+- 下一个项目任务：

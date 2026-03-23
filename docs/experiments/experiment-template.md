@@ -1,42 +1,42 @@
-# Experiment Template
+# 实验模板
 
-## Basic Information
+## 基本信息
 
-- title:
-- date:
-- topic:
-- related capability domain:
+- 标题：
+- 日期：
+- 主题：
+- 所属能力领域：
 
-## Goal
+## 实验目标
 
 这个实验想验证什么，或者学会什么？
 
-## Theory Summary
+## 理论摘要
 
 这个实验在验证哪些概念？
 
-## Setup
+## 实验环境
 
-- tools:
-- framework:
-- model or API:
-- input data:
+- 使用工具：
+- 使用框架：
+- 使用模型或 API：
+- 输入数据：
 
-## Implementation Notes
+## 实现记录
 
-- steps taken:
-- key prompts or instructions:
-- implementation decisions:
+- 执行步骤：
+- 关键 prompts 或 instructions：
+- 关键实现决策：
 
-## Results
+## 实验结果
 
-- what worked:
-- what failed:
-- output quality:
-- speed or cost observations:
+- 哪些有效：
+- 哪些失败：
+- 输出质量观察：
+- 速度或成本观察：
 
-## Reflection
+## 复盘反思
 
-- what I learned:
-- what should change next time:
-- what can be reused:
+- 我学到了什么：
+- 下次应该怎么调整：
+- 哪些内容可以复用：

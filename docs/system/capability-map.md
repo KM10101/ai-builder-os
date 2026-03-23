@@ -1,8 +1,8 @@
-# Capability Map
+# 能力地图
 
-## Capability Domains
+## 能力领域
 
-### 1. AI-Assisted Development
+### 1. AI 辅助开发
 
 重点内容：
 
@@ -19,7 +19,7 @@
 - 形成可复用的 AI coding workflow
 - 清楚什么时候适合依赖 AI，什么时候应该自己接管
 
-### 2. LLM Application Fundamentals
+### 2. LLM 应用基础
 
 重点内容：
 
@@ -35,7 +35,7 @@
 - 能稳定实现基于 LLM 的基础功能
 - 能解释常见设计取舍背后的原因
 
-### 3. RAG Systems
+### 3. RAG 系统
 
 重点内容：
 
@@ -50,7 +50,7 @@
 
 - 能实现并优化实用型检索增强应用
 
-### 4. Agent and Workflow Design
+### 4. Agent 与工作流设计
 
 重点内容：
 
@@ -65,7 +65,7 @@
 
 - 能设计边界更清晰、控制更稳定的多步骤 AI 应用流程
 
-### 5. Engineering and Productization
+### 5. 工程化与产品化
 
 重点内容：
 
@@ -80,7 +80,7 @@
 
 - 让原型逐步接近真实可交付产品
 
-### 6. Communication and Portfolio Expression
+### 6. 表达与作品集呈现
 
 重点内容：
 

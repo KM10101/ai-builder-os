@@ -2,7 +2,7 @@
 
 一个用于学习、实践、复盘 AI 应用开发能力的个人成长操作系统。
 
-## Core Idea
+## 核心想法
 
 AI Builder OS 希望帮助你：
 
@@ -12,7 +12,7 @@ AI Builder OS 希望帮助你：
 - 记录过程中的进展、问题和反思
 - 积累长期可见的成长证据
 
-## Version 0.1 Focus
+## 第一版重点
 
 第一版的重点是先把系统地基搭起来：
 
@@ -22,13 +22,13 @@ AI Builder OS 希望帮助你：
 - 明确第一阶段路线图
 - 提供可复用的实验与复盘模板
 
-## Quick Links
+## 快速入口
 
-- [Getting Started](./guide/getting-started)
-- [Project Structure](./guide/project-structure)
-- [Project Vision](./system/vision)
-- [Capability Map](./system/capability-map)
-- [Operating Cycle](./system/operating-cycle)
-- [Phase 1 Roadmap](./roadmap/phase-1)
-- [Weekly Review Template](./reviews/weekly-review-template)
-- [Experiment Template](./experiments/experiment-template)
+- [开始使用](./guide/getting-started)
+- [项目结构](./guide/project-structure)
+- [项目愿景](./system/vision)
+- [能力地图](./system/capability-map)
+- [运转循环](./system/operating-cycle)
+- [第一阶段路线图](./roadmap/phase-1)
+- [周复盘模板](./reviews/weekly-review-template)
+- [实验模板](./experiments/experiment-template)
