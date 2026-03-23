@@ -1,0 +1,14 @@
+{
+  "name": "ai-builder-os",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A personal growth operating system for learning and building AI applications.",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host 0.0.0.0",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}

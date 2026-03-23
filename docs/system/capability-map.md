@@ -1,0 +1,95 @@
+# Capability Map
+
+## Capability Domains
+
+### 1. AI-Assisted Development
+
+重点内容：
+
+- 任务拆解
+- 面向编码工具的 prompt / instruction 设计
+- 代码审查与验证
+- 使用 AI 辅助调试
+- 使用 AI 辅助重构
+- 文档与总结工作流
+
+预期结果：
+
+- 在保证质量的前提下更快完成任务
+- 形成可复用的 AI coding workflow
+- 清楚什么时候适合依赖 AI，什么时候应该自己接管
+
+### 2. LLM Application Fundamentals
+
+重点内容：
+
+- 模型 API
+- prompt 结构
+- structured output
+- tool calling
+- context management
+- 延迟与成本意识
+
+预期结果：
+
+- 能稳定实现基于 LLM 的基础功能
+- 能解释常见设计取舍背后的原因
+
+### 3. RAG Systems
+
+重点内容：
+
+- 文档切分
+- embedding
+- retrieval
+- reranking
+- context assembly
+- evaluation basics
+
+预期结果：
+
+- 能实现并优化实用型检索增强应用
+
+### 4. Agent and Workflow Design
+
+重点内容：
+
+- workflow 与 agent 模式差异
+- 任务规划
+- 工具编排
+- 状态管理
+- 记忆设计
+- 失败重试与容错
+
+预期结果：
+
+- 能设计边界更清晰、控制更稳定的多步骤 AI 应用流程
+
+### 5. Engineering and Productization
+
+重点内容：
+
+- 后端服务设计
+- 异步执行
+- 可观测性
+- 配置管理
+- 权限与安全边界
+- 性能与成本优化
+
+预期结果：
+
+- 让原型逐步接近真实可交付产品
+
+### 6. Communication and Portfolio Expression
+
+重点内容：
+
+- 架构说明
+- 取舍说明
+- 项目文档
+- 可写进简历的项目总结
+- demo 讲述能力
+
+预期结果：
+
+- 能更清楚地在面试和项目展示中表达自己的工作
