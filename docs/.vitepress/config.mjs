@@ -35,6 +35,12 @@ export default {
         ]
       },
       {
+        text: '学习笔记',
+        items: [
+          { text: 'LLM 应用基础概念笔记', link: '/notes/llm-application-basics' }
+        ]
+      },
+      {
         text: '模板',
         items: [
           { text: '周复盘模板', link: '/reviews/weekly-review-template' },

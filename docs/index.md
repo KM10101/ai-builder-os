@@ -32,6 +32,7 @@ AI Builder OS 希望帮助你：
 - [运转循环](./system/operating-cycle)
 - [第一阶段路线图](./roadmap/phase-1)
 - [第一周计划（2026-03-23 至 2026-03-29）](./roadmap/first-week-plan)
+- [LLM 应用基础概念笔记](./notes/llm-application-basics)
 - [第一个小项目方向建议](./experiments/first-project-direction)
 - [周复盘模板](./reviews/weekly-review-template)
 - [实验模板](./experiments/experiment-template)
