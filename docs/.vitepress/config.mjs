@@ -23,13 +23,15 @@ export default {
         items: [
           { text: '项目愿景', link: '/system/vision' },
           { text: '能力地图', link: '/system/capability-map' },
+          { text: '初始能力基线', link: '/system/initial-capability-baseline' },
           { text: '运转循环', link: '/system/operating-cycle' }
         ]
       },
       {
         text: '路线图',
         items: [
-          { text: '第一阶段', link: '/roadmap/phase-1' }
+          { text: '第一阶段', link: '/roadmap/phase-1' },
+          { text: '第一周计划', link: '/roadmap/first-week-plan' }
         ]
       },
       {
@@ -37,6 +39,12 @@ export default {
         items: [
           { text: '周复盘模板', link: '/reviews/weekly-review-template' },
           { text: '实验模板', link: '/experiments/experiment-template' }
+        ]
+      },
+      {
+        text: '项目与实验',
+        items: [
+          { text: '第一个小项目方向建议', link: '/experiments/first-project-direction' }
         ]
       }
     ],
