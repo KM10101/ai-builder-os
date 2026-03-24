@@ -1,7 +1,14 @@
+import markdownItTaskLists from 'markdown-it-task-lists'
+
 export default {
   title: 'AI Builder OS',
   description: '一个用于学习和构建 AI 应用的个人成长操作系统。',
   lang: 'zh-CN',
+  markdown: {
+    config(md) {
+      md.use(markdownItTaskLists, { enabled: true, label: true, labelAfter: true })
+    }
+  },
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
