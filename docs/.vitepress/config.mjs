@@ -7,7 +7,8 @@ export default {
       { text: '首页', link: '/' },
       { text: '使用指南', link: '/guide/getting-started' },
       { text: '系统设计', link: '/system/vision' },
-      { text: '路线图', link: '/roadmap/phase-1' }
+      { text: '路线图', link: '/roadmap/phase-1' },
+      { text: '每日记录', link: '/daily/' }
     ],
     sidebar: [
       {
@@ -15,7 +16,8 @@ export default {
         items: [
           { text: '开始使用', link: '/guide/getting-started' },
           { text: '工作流', link: '/guide/workflow' },
-          { text: '项目结构', link: '/guide/project-structure' }
+          { text: '项目结构', link: '/guide/project-structure' },
+          { text: '每日计划与执行记录', link: '/guide/daily-planning' }
         ]
       },
       {
@@ -38,6 +40,19 @@ export default {
         text: '学习笔记',
         items: [
           { text: 'LLM 应用基础概念笔记', link: '/notes/llm-application-basics' }
+        ]
+      },
+      {
+        text: '每日记录',
+        items: [
+          { text: '每日记录首页', link: '/daily/' },
+          { text: '2026 Week 13', link: '/daily/2026-week-13/' },
+          { text: '2026-03-24', link: '/daily/2026-week-13/2026-03-24' },
+          { text: '2026-03-25', link: '/daily/2026-week-13/2026-03-25' },
+          { text: '2026-03-26', link: '/daily/2026-week-13/2026-03-26' },
+          { text: '2026-03-27', link: '/daily/2026-week-13/2026-03-27' },
+          { text: '2026-03-28', link: '/daily/2026-week-13/2026-03-28' },
+          { text: '2026-03-29', link: '/daily/2026-week-13/2026-03-29' }
         ]
       },
       {
