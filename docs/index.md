@@ -35,6 +35,8 @@ AI Builder OS 希望帮助你：
 - [每日计划与执行记录说明](./guide/daily-planning)
 - [每日记录首页](./daily/)
 - [2026 Week 13 每日记录](./daily/2026-week-13/)
+- [项目首页](./projects/)
+- [网页内容总结工具](./projects/web-content-summarizer)
 - [LLM 应用基础概念笔记](./notes/llm-application-basics)
 - [第一个小项目方向建议](./experiments/first-project-direction)
 - [周复盘模板](./reviews/weekly-review-template)

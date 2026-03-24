@@ -76,6 +76,8 @@ export default {
       {
         text: '项目与实验',
         items: [
+          { text: '项目首页', link: '/projects/' },
+          { text: '网页内容总结工具', link: '/projects/web-content-summarizer' },
           { text: '第一个小项目方向建议', link: '/experiments/first-project-direction' }
         ]
       }
