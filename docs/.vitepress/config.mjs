@@ -9,7 +9,11 @@ export default {
       md.use(markdownItTaskLists, { enabled: true, label: true, labelAfter: true })
     }
   },
+  lastUpdated: true,
   themeConfig: {
+    lastUpdated: {
+      text: '最后更新于'
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '使用指南', link: '/guide/getting-started' },
