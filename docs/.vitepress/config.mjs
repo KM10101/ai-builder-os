@@ -54,6 +54,13 @@ export default {
         ]
       },
       {
+        text: 'Playbooks',
+        items: [
+          { text: 'AI Coding Rules（草案）', link: '/playbooks/ai-coding-rules' },
+          { text: 'AI Coding Review Checklist（草案）', link: '/playbooks/ai-coding-review-checklist' }
+        ]
+      },
+      {
         text: '每日记录',
         items: [
           { text: '每日记录首页', link: '/daily/' },
