@@ -57,7 +57,8 @@ export default {
         text: 'Playbooks',
         items: [
           { text: 'AI Coding Rules（草案）', link: '/playbooks/ai-coding-rules' },
-          { text: 'AI Coding Review Checklist（草案）', link: '/playbooks/ai-coding-review-checklist' }
+          { text: 'AI Coding Review Checklist（草案）', link: '/playbooks/ai-coding-review-checklist' },
+          { text: 'Web Content Summarizer：反推任务文档（草案）', link: '/playbooks/web-content-summarizer-task-reverse-spec' }
         ]
       },
       {

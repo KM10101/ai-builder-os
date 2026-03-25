@@ -40,6 +40,7 @@ AI Builder OS 希望帮助你：
 - [LLM 应用基础概念笔记](./notes/llm-application-basics)
 - [AI Coding Rules（草案）](./playbooks/ai-coding-rules)
 - [AI Coding Review Checklist（草案）](./playbooks/ai-coding-review-checklist)
+- [Web Content Summarizer：反推任务文档（草案）](./playbooks/web-content-summarizer-task-reverse-spec)
 - [第一个小项目方向建议](./experiments/first-project-direction)
 - [周复盘模板](./reviews/weekly-review-template)
 - [实验模板](./experiments/experiment-template)
