@@ -1,6 +1,71 @@
 # Codex 常用命令速查
 
-> 这页优先记录面向真实开发的高频用法，目标是让你在做任务时能快速想起“该怎么和 Codex 协作”。
+> 这页优先记录面向真实开发的高频用法，目标是让你在做任务时能快速想起"该怎么和 Codex 协作"。
+
+## 命令行基本用法
+
+### 直接执行
+
+```bash
+codex "你的任务描述"
+```
+
+适合快速执行一个明确任务。
+
+### 非交互模式 exec
+
+```bash
+codex exec [OPTIONS] "任务描述"
+```
+
+适合 CI/CD、脚本等非交互场景。
+
+常用参数：
+- `-m, --model <MODEL>` - 指定模型
+- `-s, --sandbox <MODE>` - 沙箱模式 (read-only / workspace-write / danger-full-access)
+- `-a, --ask-for-approval <POLICY>` - 审批策略 (never / on-request / on-failure)
+- `--full-auto` - 全自动模式，等同于 `-a on-request -s workspace-write`
+- `-C, --cd <DIR>` - 指定工作目录
+- `--json` - JSON 格式输出
+- `-o, --output-last-message <FILE>` - 把最后输出写入文件
+
+### 代码 Review
+
+```bash
+codex review [OPTIONS] "review 指令"
+```
+
+常用参数：
+- `--uncommitted` - 审查所有未提交的改动
+- `--base <BRANCH>` - 对比指定分支
+- `--commit <SHA>` - 审查指定 commit
+- `--title <TITLE>` - review 报告标题
+
+### 会话管理
+
+```bash
+# 继续上一个会话
+codex exec --resume --last
+
+# 恢复指定会话
+codex exec --resume <session-id>
+
+# Fork 一个会话
+codex fork <session-id>
+```
+
+### MCP 服务
+
+```bash
+# 列出已配置的 MCP 服务器
+codex mcp list
+
+# 添加 MCP 服务器
+codex mcp add <name> <command>
+
+# 移除 MCP 服务器
+codex mcp remove <name>
+```
 
 ## Codex 更适合做什么
 
@@ -61,7 +126,7 @@
 ### 限制改动范围
 
 ```text
-只修改和本次需求直接相关的文件，不要扩展到无关模块。
+只修改和本次需求直接相关的文件,不要扩展到无关模块。
 ```
 
 ### 禁止顺手重构
@@ -106,7 +171,7 @@
 
 ## 一个推荐定位
 
-把 Codex 当成：
+把 Codex 当成:
 
 - **高执行力工程助手**
 - **明确任务落地器**
@@ -114,10 +179,10 @@
 
 ## 示例用法
 
-### 示例 1：执行一个小改动
+### 示例 1:执行一个小改动
 
 ```text
-按下面要求修改代码：
+按下面要求修改代码:
 - 给订单接口增加一个 `source` 字段透传
 - 只修改和这个需求直接相关的文件
 - 保持现有代码风格
@@ -125,16 +190,16 @@
 - 改完后总结修改点和风险点
 ```
 
-### 示例 2：先计划再执行
+### 示例 2:先计划再执行
 
 ```text
-我需要修复这个 bug。先列出你准备修改的文件、原因和可能风险，等我确认后再执行。
+我需要修复这个 bug。先列出你准备修改的文件、原因和可能风险,等我确认后再执行。
 ```
 
-### 示例 3：执行后自查
+### 示例 3:执行后自查
 
 ```text
-改完后请告诉我：
+改完后请告诉我:
 1. 本次改了哪些文件
 2. 每个改动的作用
 3. 需要我重点 review 的地方
@@ -143,7 +208,7 @@
 
 ## 后续可继续补充的内容
 
-你后面可以继续往这页补：
+你后面可以继续往这页补:
 
 - 你自己真实高频用法
 - 哪种任务 Codex 最稳
