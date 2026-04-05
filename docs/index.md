@@ -45,6 +45,12 @@
 
 ### 记录与演进
 
+- [真实案例库](./cases/index)
+- [案例：阅读陌生模块并梳理调用链](./cases/read-unknown-module)
+- [案例：实现一个小需求并控制改动范围](./cases/implement-small-change)
+- [案例：排查并修复一个 bug](./cases/debug-and-fix-bug)
+- [案例：对已有改动做一次代码 Review](./cases/review-existing-change)
+- [案例：对老代码做一次小范围重构](./cases/small-refactor)
 - [案例模板](./templates/case-template)
 - [Pattern 模板](./templates/pattern-template)
 - [Prompt 模板](./templates/prompt-template)

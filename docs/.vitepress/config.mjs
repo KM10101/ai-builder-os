@@ -85,7 +85,29 @@ export default {
       },
       {
         text: "Cases",
-        items: [{ text: "Cases 首页", link: "/cases/README" }],
+        items: [
+          { text: "Cases 首页", link: "/cases/index" },
+          {
+            text: "阅读陌生模块并梳理调用链",
+            link: "/cases/read-unknown-module",
+          },
+          {
+            text: "实现一个小需求并控制改动范围",
+            link: "/cases/implement-small-change",
+          },
+          {
+            text: "排查并修复一个 bug",
+            link: "/cases/debug-and-fix-bug",
+          },
+          {
+            text: "对已有改动做一次代码 Review",
+            link: "/cases/review-existing-change",
+          },
+          {
+            text: "对老代码做一次小范围重构",
+            link: "/cases/small-refactor",
+          },
+        ],
       },
       {
         text: "Skills",
